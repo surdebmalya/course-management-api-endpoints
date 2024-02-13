@@ -1,0 +1,399 @@
+{
+	"info": {
+		"_postman_id": "64875053-db17-4d5d-9e5d-1378942f62d3",
+		"name": "dezerv-api-endpoint-checking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31698524"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:8000/api/students",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"studentId\": 1233,\r\n    \"firstName\": \"Sonam\",\r\n    \"lastName\": \"Kapoor\",\r\n    \"email\": \"kapoor.sonam12@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/students",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/students/1233",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/students/1233",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"students",
+						"1233"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/students",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/students/1233",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/students/1233",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"students",
+						"1233"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/students/1235/courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/students/1235/courses",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"students",
+						"1235",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/courses",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"courseId\": 455,\r\n    \"courseName\": \"Introduction to AI and ML\",\r\n    \"credits\": 8.5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/courses",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/courses/455",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/courses/455",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"courses",
+						"455"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/courses",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/courses/455",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/courses/455",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"courses",
+						"455"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/courses/456/students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/courses/456/students",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"courses",
+						"456",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/courses/most-enrolled",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/courses/most-enrolled",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"courses",
+						"most-enrolled"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/courses/highest-marks/456",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/courses/highest-marks/456",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"courses",
+						"highest-marks",
+						"456"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/enrollments/enroll",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"studentId\": 1234,\r\n    \"courseId\": 457\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/enrollments/enroll",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"enrollments",
+						"enroll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/enrollments/unenroll",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"studentId\": 1234,\r\n    \"courseId\": 456\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/enrollments/unenroll",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"enrollments",
+						"unenroll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/enrollments/updateMarks",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"studentId\": 1234,\r\n    \"courseId\": 457,\r\n    \"marks\": 80\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/enrollments/updateMarks",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"enrollments",
+						"updateMarks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
